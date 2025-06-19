@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Video Metadata Remover - NodeJS</title>
+  <title>🔥 Video Metadata Remover</title>
   <style>
-    body { background: #000; color: #0f0; text-align: center; padding: 20px; }
-    input, button { margin: 10px; padding: 10px; }
+    body { background: #111; color: #0f0; text-align: center; padding: 20px; }
+    h1 { color: #0f0; }
+    input, button { padding: 10px; margin: 10px; }
   </style>
 </head>
 <body>
-  <h1>🔥 NodeJS Video Metadata Remover</h1>
-  <form id="uploadForm" enctype="multipart/form-data" method="POST" action="/upload">
+  <h1>🔥 Upload Video to Remove Metadata</h1>
+  <form method="POST" action="/upload" enctype="multipart/form-data">
     <input type="file" name="video" accept="video/*" required />
+    <br />
     <button type="submit">Upload & Clean</button>
   </form>
 </body>
